@@ -7,6 +7,6 @@ if (cluster.isMaster) {
   }
 
   Object.keys(cluster.workers).forEach(function (id) {
-    Queue(id).listen(id % 2 == 0 ? "test" : "teste1");
+    Queue(id).listen("test","grouping");
   });
 }

@@ -6,5 +6,5 @@ Using share option to group the messages in the instances
 
 - Run docker-compose up
 - Run npm start
-- Exec src/sender.js to send message
+- Run npm run send
 - You can watch the messages in the container server of mqlight http://localhost:9180

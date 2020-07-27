@@ -1,0 +1,14 @@
+{
+  "name": "supervisorMqLight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqlight": "^2.0.2019041500",
+    "supervisor": "^0.12.0"
+  }
+}

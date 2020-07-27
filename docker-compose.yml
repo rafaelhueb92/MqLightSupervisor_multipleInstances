@@ -1,0 +1,8 @@
+mqlight:
+  image: ibmcom/mqlight
+  environment:
+   - LICENSE=accept
+  ports:
+    - "15672:15672"
+    - "5672:5672"
+    - "9180:9180"
